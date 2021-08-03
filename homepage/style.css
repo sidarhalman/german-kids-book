@@ -1,0 +1,15 @@
+body {
+    background-image: url(/pictures/iPhone\ wallpaper\ stripes.jpg);
+}
+
+.header-bg {
+    height: 150px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-kind-of-school-equipment-upgrade-stationery-new-semester-new-equipment-image_12581.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.head-hamburger {
+    display: flex;
+    justify-content: space-between;
+}
