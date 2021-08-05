@@ -31,7 +31,6 @@ header .head-hamburger .hamburger i {
 }
 
 header .head-hamburger .hamburger i+ul {
-    display: none;
     list-style: none;
 }
 
