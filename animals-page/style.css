@@ -78,10 +78,13 @@ img {
     font-size: 40px;
 }
 
-.chance1 {
+.chance-label {
     position: relative;
     z-index: 1;
 }
+
+
+/* first animal cow */
 
 #chance1 {
     display: none;
@@ -101,5 +104,80 @@ img {
 }
 
 #chance1:checked~#back {
+    transform: rotateY(0);
+}
+
+
+/* second animal horse */
+
+#chance2 {
+    display: none;
+}
+
+#chance2:checked~#front2 {
+    transform: rotateY(-180deg);
+}
+
+#chance2:checked~#back2 {
+    transform: rotateY(0);
+}
+
+
+/* third animal pig */
+
+#chance3 {
+    display: none;
+}
+
+#chance3:checked~#front3 {
+    transform: rotateY(-180deg);
+}
+
+#chance3:checked~#back3 {
+    transform: rotateY(0);
+}
+
+
+/* 4nth animal chicken */
+
+#chance4 {
+    display: none;
+}
+
+#chance4:checked~#front4 {
+    transform: rotateY(-180deg);
+}
+
+#chance4:checked~#back4 {
+    transform: rotateY(0);
+}
+
+
+/* 5nt animal sheep */
+
+#chance5 {
+    display: none;
+}
+
+#chance5:checked~#front5 {
+    transform: rotateY(-180deg);
+}
+
+#chance5:checked~#back5 {
+    transform: rotateY(0);
+}
+
+
+/*  6nt animal mouse */
+
+#chance6 {
+    display: none;
+}
+
+#chance6:checked~#front6 {
+    transform: rotateY(-180deg);
+}
+
+#chance6:checked~#back6 {
     transform: rotateY(0);
 }
