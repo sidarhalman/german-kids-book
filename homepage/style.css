@@ -5,11 +5,55 @@ body {
 .header-bg {
     height: 150px;
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-kind-of-school-equipment-upgrade-stationery-new-semester-new-equipment-image_12581.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .head-hamburger {
     display: flex;
     justify-content: space-between;
+    background-color: darkblue;
+}
+
+header .head-hamburger .head {
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bolder;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+header .head-hamburger .hamburger i {
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 10px 20px 1px 10px;
+}
+
+header .head-hamburger .hamburger i+ul {
+    display: none;
+    list-style: none;
+}
+
+.main {
+    margin: 30px 10px 10px 10px;
+    background-color: hotpink;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer a i {
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
 }
