@@ -1,0 +1,105 @@
+body {
+    background-image: url(/pictures/iPhone\ wallpaper\ stripes.jpg);
+}
+
+header .head-hamburger {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+header .head-hamburger .head {
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+header .head-hamburger .hamburger i {
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 10px 20px 1px 10px;
+}
+
+ul {
+    display: none;
+}
+
+.animation {
+    height: 300px;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+/* .cards:hover #front {
+    transform: rotateY(-180deg);
+}
+
+.cards:hover #back {
+    transform: rotateY(0)
+} */
+
+.container .cards .card1,
+.card2 {
+    transition-duration: 1s;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.card1 {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 240px;
+    width: 250px;
+}
+
+.card2 {
+    background-color: aqua;
+    transform: rotateY(-180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.chance1 {
+    position: relative;
+    z-index: 1;
+}
+
+#chance1 {
+    display: none;
+}
+
+.look {
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+    color: darkblue;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#chance1:checked~#front {
+    transform: rotateY(-180deg);
+}
+
+#chance1:checked~#back {
+    transform: rotateY(0);
+}
