@@ -25,6 +25,7 @@ header .head-hamburger .head {
 }
 
 header .head-hamburger .hamburger i {
+    cursor: pointer;
     color: whitesmoke;
     font-size: 30px;
     margin: 10px 20px 1px 10px;
@@ -39,10 +40,11 @@ header .head-hamburger .hamburger i {
 }
 
 #nav:checked~ul {
-    display: none;
+    display: block;
 }
 
 #nav-ul {
+    display: none;
     right: 5%;
     background-color: thistle;
     position: absolute;

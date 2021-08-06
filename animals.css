@@ -22,8 +22,36 @@ header .head-hamburger .hamburger i {
     margin: 10px 20px 1px 10px;
 }
 
+#nav {
+    display: none;
+}
+
+a {
+    color: darkblue;
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px;
+}
+
+a:hover {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
 ul {
     display: none;
+    z-index: 1;
+    position: absolute;
+    right: 4%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: thistle;
+}
+
+#nav:checked~ul {
+    display: block;
 }
 
 .animation {
