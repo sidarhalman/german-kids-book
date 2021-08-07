@@ -62,6 +62,8 @@ ul {
 }
 
 .card {
+    box-shadow: 5px 5px 10px #000011;
+    border-radius: 10px;
     font-size: 35px;
     height: 270px;
     width: 270px;

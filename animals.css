@@ -83,6 +83,7 @@ ul {
     position: absolute;
     backface-visibility: hidden;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px #000011;
 }
 
 .card1 {
