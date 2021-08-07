@@ -65,18 +65,54 @@
         margin: 20px 20px 0 20px;
         height: 220px;
         width: 220px;
-        background: blue;
         transition-duration: 1s;
         border-radius: 10px;
         box-shadow: 5px 5px 15px #000111;
     }
     
     .box1 {
-        background-color: red;
+        background-color: aqua;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        ;
     }
     
     .box2 {
         position: absolute;
+        background: hotpink;
+    }
+    
+    .background-img-1 {
+        background-image: url(https://png.pngtree.com/element_our/20190531/ourlarge/pngtree-red-tomato-cartoon-illustration-image_1292765.jpg);
+        background-size: cover;
+    }
+    
+    .background-img-2 {
+        background-image: url(https://i.pinimg.com/736x/05/ca/22/05ca22fb39a71df01beae8aa661d1d95.jpg);
+        background-size: cover;
+    }
+    
+    .background-img-3 {
+        background-image: url(https://www.pngkey.com/png/detail/67-674286_png-free-stock-vegetable-free-broccoli-clip-art.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .background-img-4 {
+        background-image: url(https://media.istockphoto.com/vectors/basic-rgb-vector-id1224969540?k=6&m=1224969540&s=612x612&w=0&h=5XjPFWttslRmyubEEZ5daE4Mv1l5VIX6Ig02YbCB6DU=);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .background-img-5 {
+        background-image: url(https://www.seekpng.com/png/detail/820-8206909_vegetables-simple-hand-drawn-cartoon-png-and-psd.png);
+        background-size: cover;
+        background-position: center;
     }
     
     .checkbox {
