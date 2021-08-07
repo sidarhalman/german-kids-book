@@ -31,10 +31,6 @@ header .head-hamburger .hamburger i {
     margin: 10px 20px 1px 10px;
 }
 
-.nav-checkbox {
-    /* display: none; */
-}
-
 #nav {
     display: none;
 }
