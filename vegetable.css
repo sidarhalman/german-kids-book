@@ -65,7 +65,7 @@
         margin: 20px 20px 0 20px;
         height: 220px;
         width: 220px;
-        transition-duration: 1s;
+        transition-duration: 1.2s;
         border-radius: 10px;
         box-shadow: 5px 5px 15px #000111;
     }
@@ -120,7 +120,7 @@
     }
     
     .checkbox:checked+.box2 {
-        transform: rotate(180deg) skew(0deg) scale(0) translate(0px);
+        transform: rotate(360deg) skew(0deg) scale(0) translate(0px);
     }
     
     .look {
